@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an account</title>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="relative overflow-x-hidden">
+    <!--content-->
+    <div class="flex flex-col items-center md:py-20 py-16 ">
+        <h2 class="font-semibold text-lg tracking-wide">Create an account</h2>
+        <p class="font-light">Get started on managing your business</p>
+
+        <!--Card-->
+        <div class="m-5 md:border py-8 px-14">
+           <!--Username-->
+           <div class="mb-5">
+            <label for="username" class="text-gray-400 font-medium">Username</label>
+                <div class="flex gap-2 border p-3 my-2">
+                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
+                    </svg>
+                    <input type="text" placeholder="John Doe" id="username" class="focus:outline-none  placeholder:font-normal"/>
+                </div>
+           </div>
+           <!--Email-->
+           <div class="mb-5">
+                <label for="email" class="text-gray-400 font-medium">Email Address</label>
+                <div class="flex gap-2 border p-3 my-2">
+                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                        <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                    </svg>
+                    <input type="email" id="email" placeholder="eg someone@gmail.com"  class="focus:outline-none   placeholder:font-normal"/>
+                </div>
+            </div>
+             <!--Password-->
+             <div class="mb-5">
+               <label for="password" class="text-gray-400 font-medium">Password</label>
+                <div class="flex  items-center justify-center gap-2 border p-3 my-2">
+                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd" />
+                      </svg>
+                      <input type="password" id="password" placeholder="Enter password"  class="focus:outline-none  placeholder:font-normal "/>
+                      <span>
+                        <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                            <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
+                          </svg>
+                      </span>
+                </div>
+           </div>
+           <div class="bg-sky-400 py-3 text-center cursor-pointer text-white font-medium">
+            <button>Continue</button>
+           </div>
+           <div class="text-center m-5 cursor-pointer ">
+            <a> I have an account already</a>
+           </div>
+        </div>
+
+    </div>
+
+      <!--footer-->
+      <div class="md:mx-10 absolute bottom-0 left-0 w-full">
+        <hr  />
+       <div class="flex gap-x-10 w-full mt-3">
+        <p class="w-5/12"> &copy; TridentSoftware</p>
+        <div class="flex gap-x-10 w-7/12">
+            <p >Home</p>
+            <p>Pricing</p>
+       </div>
+       </div>
+     </div>
+</body>
+</html>
